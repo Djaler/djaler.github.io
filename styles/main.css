@@ -11,6 +11,7 @@ body {
 }
 #round {
     border-radius: 50%;
+    height: 150px;
 }
 #name {
   font-size: 32px;
