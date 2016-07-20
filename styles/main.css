@@ -1,52 +1,75 @@
 body {
+
   overflow: hidden;
   background-color: #111;
   font-family: 'Open Sans Condensed', sans-serif;
   padding-top: 12%;
+
 }
+
 #content {
-    text-align: center;
-    max-height: 200px;
-    max-width: 265px;
-    margin: 0 auto;
+
+  text-align: center;
+  max-height: 200px;
+  max-width: 265px;
+  margin: 0 auto;
+
 }
+
 #round {
-    border-radius: 50%;
-    height: 150px;
+
+  border-radius: 50%;
+  height: 150px;
+
 }
+
 #name {
+
   font-size: 32px;
   color: white;
+
 }
+
 nav {
+
   margin-top: 1%;
+
 }
+
 nav a {
-    text-decoration: none;
-    color: rgba(255,255,255,0.5);
-    text-decoration: none;
-    font-size: 25px;
-    padding: 5px;
+
+  text-decoration: none;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 5px;
+
 }
 nav a:hover {
+
   color: #fff;
- transition: background-color 0.1s ease-in,
-    color 0.1s ease-in;
+  transition: background-color 0.1s ease-in,
+              color 0.1s ease-in;
+
 }
 
 #particles-js{
+
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+
 }
 
 .animated {
+
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
   -webkit-animation-fill-mode: both;
+  animation-duration: 1s;
   animation-fill-mode: both;
+
 }
 
 
