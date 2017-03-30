@@ -30,6 +30,16 @@ body {
 
 }
 
+.music {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.music a{
+  font-size: 15px;
+}
+
 nav {
 
   margin-top: 1%;
